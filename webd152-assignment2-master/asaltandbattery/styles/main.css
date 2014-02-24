@@ -1,0 +1,263 @@
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* fonts */
+
+/*@font-face{
+font-family: Duru Sans;
+src: url(../fonts/Duru_Sans/DuruSans-Regular.ttf);
+}
+
+@font-face{
+font-family: Krona One;
+src: url(../fonts/Krona_One/KronaOne-Regular.ttf);
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Duru+Sans|Krona+One);
+
+h1,h2,h3{
+font-family: Krona One;
+}
+
+h1 {
+
+  font-size:36px;
+}
+
+h2 {
+  font-size:24px;
+}
+
+h3 {
+  font-size:18px;
+}
+
+p {
+font-family: Duru Sans;
+font-size:18px;
+}
+
+a { 
+  font-family: Krona One;
+  font-size: 18px;
+  text-decoration:none;
+  color:#fff;
+}
+
+q {
+  font-family: Krona One;
+  font-size:24px;
+}
+
+cite {
+  font-family: Krona One;
+  font-size:18px;
+  font-style:normal;
+}
+
+/* body */
+
+body {
+	background: #fafafa;
+}
+
+/* Used to center */
+#container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* Used to give pink hue */
+#pink {
+  background-image:url('../images/lighthouse.png');
+  height:721px;
+  z-index:50;
+}
+
+/* Header */
+header {
+  background-color:rgba(219,51,76,.84);
+  width:100%;
+  height:721px;
+}
+
+/* Nav elements */
+nav {
+  width: 100%;
+  height:141px;
+  background-color: rgba(0,0,0,.3);
+  padding: 15px 0px;
+  margin: 0 auto;
+  }
+
+#logo {
+  padding-left:125px;
+  padding-top:10px;
+}
+
+#links {
+  float:right;
+  padding-right:100px;
+  padding-top:25px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 18px;
+  margin: 0px 50px;
+}
+
+#fish_and_chips {
+padding-left:195px;
+padding-top:45px;
+-webkit-filter: drop-shadow(17px 17px 25px rgba(0,0,0,0.5));
+}
+
+#header_text {
+  font-family:Krona One;
+  text-align:center;
+  padding-right:250px;
+  padding-top:235px;
+  float:right;
+  color:#fff;
+}
+
+/* About us */
+
+#about {
+  height: 753px;
+}
+
+#about h1{
+  color:#5dcdb5;
+  padding-top:75px;
+  text-align:center;
+}
+
+#about_content {
+  width:785px;
+  padding-left:100px;
+  float:left;
+}
+
+#cook {
+  float:right;
+  padding-right:100px;
+}
+
+
+/* Menu */
+
+#menu {
+  background-image:url('../images/menu.png');
+  height: 471px;
+}
+
+#blue {
+  background-color:rgba(93,205,181,.90);
+  height: 471px;
+}
+
+#menu h1 {
+  color:#f95971;
+  padding-top:75px;
+  text-align:center;
+}
+
+#mains {
+  text-align:center;
+  float:left;
+  padding-left:125px;
+}
+
+#mains h2 {
+  color:#fff;
+}
+
+#mains p {
+  margin:10px;
+}
+
+#sides {
+  text-align:center;
+  float:left;
+  padding-left:90px;
+}
+
+#sides h2 {
+  color:#fff;
+}
+
+#sides p {
+  margin:10px;
+}
+
+#drinks {
+  text-align:center;
+  float:left;
+  padding-left:170px;
+}
+
+#drinks h2 {
+  color:#fff;
+}
+
+#drinks p {
+  margin:10px;
+}
+
+
+/* Footer */
+
+footer {
+  background-color:#252525;
+  height:278px;
+}
+
+footer #info {
+  padding-top:30px;
+  padding-left:100px;
+  float:left;
+  
+}
+
+footer #info h2{
+  color:#fff;
+}
+
+footer #info p{
+  color:#fff;
+}
+
+footer #copyright {
+  padding-top:35px;
+  padding-right:100px;
+  float: right;
+}
+
+footer #copyright p {
+  color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
